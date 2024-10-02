@@ -1,0 +1,32 @@
+Random notes on TempleOS usage:
+
+ctrl-m for macros
+
+Dir();
+Create/edit a file... Ed("filename");
+Unassemble a function: Uf("function_name");
+Unassemble an address: U(&func+0x0ffset);
+
+<esc> save&exit
+<shift>+<esc> abort&exit
+
+Debugger (stack trace, same interface/commands as normal terminal just focused with no interrupts): 
+Dbg();
+Breakpoint: B(address);
+then run function with breakpoint
+Help; for help
+
+E(_RIP); -edit register
+
+Edit:
+put cursor on filename
+-enter to run
+-space to edit
+
+Adam/God/
+    ->HolySpirit.HC
+        ->GodBits()
+
+    ->GodExt.HC
+        ->god.fifo
+
