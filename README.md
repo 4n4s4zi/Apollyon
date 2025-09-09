@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Apollyon</h1>
-  <p>TempleOS rootkit.</p>
+  <p>TempleOS rootkit. For conducting spiritual warfare.</p>
   <br/>
   <img src="./img/dove_crow_edit.png" alt="Apollyon" width="400" />
 </div>
