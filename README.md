@@ -5,11 +5,26 @@
   <img src="./img/dove_crow_edit.png" alt="Apollyon" width="400" />
 </div>
 
+
 ## Background 
+
 A collection of techniques to corrupt the state-of-the-art, security-oriented operating system that is TempleOS.
 
 
 (TempleOS lacks security features like access controls and ASLR... everything also runs as "root" by design which make the idea of a rootkit nonsense to begin with. None of this is really intended to make sense or be practical. Just a project I'm using to learn about a new system and mess around.)
+
+
+## Emulation
+
+The scripts in dev_env use QEMU to load TempleOS as a virtual machine on Linux.
+
+Running the following will install dependencies and run a TempleOS virtual machine automatically:
+```
+install.sh
+run.sh
+```
+
+Config.sh is used by the install/run scripts to load settings and can be modified as needed.
 
 
 ## Features
